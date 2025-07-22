@@ -1,5 +1,5 @@
 
-# 👗 Laropa Fashion Website
+#  Laropa Fashion Website
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=E91E63&center=true&vCenter=true&width=600&lines=Modern+Fashion+UI+Website;HTML+%2B+CSS+%2B+JavaScript;Responsive+Frontend+Project+with+Blog+and+Buy+Now+Features" alt="Typing SVG" />
@@ -89,8 +89,4 @@ The **Laropa Fashion Website** is a visually stunning frontend-only website desi
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer&customColorList=0,2,4,5" />
-  <strong>Thanks for visiting – Style meets simplicity at Laropa 👗</strong>
-</div>
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer&text=Thanks%20for%20visiting%20–%20Style%20meets%20simplicity%20at%20Laropa%20👗&fontSize=20&fontColor=ffffff&customColorList=0,2,4,5" />
