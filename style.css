@@ -1,0 +1,22 @@
+style.css
+.r1:hover{
+    color: blue;
+}
+.r1{
+    background-color: rgb(26, 46, 29);
+}
+.r2{
+    background-color: rgb(164, 39, 180);
+}.r3{
+    background-color: rgb(124, 184, 27);
+}.r4{
+    background-color: rgb(11, 14, 11);
+}.r5{
+    background-color: rgb(24, 142, 163);
+}.r6{
+    background-color: rgb(87, 27, 32);
+}
+#a1:hover{
+    background-color: rgb(40, 231, 33);
+    
+}

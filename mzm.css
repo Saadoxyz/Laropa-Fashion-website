@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Fashion website </title>
+  <link rel ="stylesheet" href="szm.css">
+</head>
+<body>
+  <div class="bgimage">
+    <div class="menu">
+      <div class="leftmenu">
+        <h4>laRopA</h4></div>
+        <div class="rightmenu">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Email us</li>
+            <li> Blogs </li>
+          </ul>
+        </div>
+       </div>
+       <div class="text">
+        <h4> DESIGN .DEVELOPEMENT .BRANDING</h4>
+        <h2> La RopA  Men's Fashion</h2>
+        <h3>Welcome to the World of Fashion Excellence
+          Stepping into the realm of fashion is like entering a vibrant tapestry woven with threads of creativity, self-expression, and timeless elegance
+</h3>
+<button id="buttonone">shop now</button>
+<button id="buttontwo">share & thankyou</button>
+       </div>
+      </div>
+ 
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+#hreaad{
+    color: aqua;
+    text-align: center;
+    text-decoration:burlywood wavy overline;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 25px;
+    line-height: 2px;
+    text-transform: lowercase;
+}
+.class{
+    color: rgba(255, 0, 0, 0.5);
+    z-index: 8;
+}
+button{
+    background-color: black;
+    color:aliceblue;
+}
+#level2{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    color: antiquewhite;
+    /*border-width: 12px;
+    border-style: dotted;
+    border-color: aquamarine;*/
+    border:12px solid  aquamarine ;
+    text-align: right;
+    /*border-radius: 50% ;
+    /*padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    display: inline;*/
+    position: sticky;
+     top:0px;
+     z-index: 4;
+    display: flex;
+    flex-direction: column-reverse;
+    transform: rotate(360deg);
+    transform: scale(1,2);
+    transform: translateX(200px);
+    transform: skew(360deg);
+    
+     
+
+    
+}
+#lab{
+    height: 100px;
+    width: 100px;
+    color:burlywood;
+    background-color: rgb(144, 30, 30);
+    display: block;
+    z-index: 12;
+    animation: coloranimate 3s ease-in 0s 4infinite normal;
+    
+}
+body{
+    background-image: url(ic.jpeg);
+    background-size: cover;
+    background-position: 25px;
+
+
+
+
+
+}
+@media(width:600px){
+    div{
+        background-color:red;
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color:red;
+    }
+}
+@media(min-width:600px){
+    div{
+        background-color:red;
+    }
+}
+div:hover{
+    background-color: blue;
+    color:white;
+    transition: all;
+    transform: scale(3);
+    transition-duration: 2ms;
+    transition-timing-function: step-end;
+    transition-delay: 1s;
+
+}
+div:active{
+    background-color: magenta;
+}
+@keyframes coloranimate{
+    form{background-color:blue;} 
+    to{background-color: brown;}
+}

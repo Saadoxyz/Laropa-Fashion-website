@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:50%">
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+        <tr>
+            <td>Student name</td>
+            <td><input type="text" id="studentName"></td>
+        </tr>
+        <tr>
+            <td>Father name</td>
+            <td><input type="text" id="fatherName"></td>
+        </tr>
+        <tr>
+            <td>Mother Name </td>
+            <td><input type="text" id="motherName"></td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td><input type="date" id="dob"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="male" id="male"> Male
+                <input type="radio" name="gender" value="female" id="female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" id="mobile"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" id="address"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text" id="state"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text" id="city"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" onclick="submitForm()"></td>
+        </tr>
+    </table>
+
+    <script>
+        function submitForm() {
+            var studentName = document.getElementById("studentName").value;
+            var fatherName = document.getElementById("fatherName").value;
+            var motherName = document.getElementById("motherName").value;
+            var dob = document.getElementById("dob").value;
+            var gender = document.querySelector('input[name="gender"]:checked').value;
+            var email = document.getElementById("email").value;
+            var mobile = document.getElementById("mobile").value;
+            var address = document.getElementById("address").value;
+            var state = document.getElementById("state").value;
+            var city = document.getElementById("city").value;
+
+            
+            var url = "rer.html";
+            url += "?studentName=" + encodeURIComponent(studentName);
+            url += "&fatherName=" + encodeURIComponent(fatherName) ;
+            url += "&motherName=" + encodeURIComponent(motherName) ;
+            url += "&dob=" + encodeURIComponent(dob) ;
+            url += "&gender=" + encodeURIComponent(gender) ;
+            url += "&email=" + encodeURIComponent(email) ;
+            url += "&mobile=" + encodeURIComponent(mobile) ;
+            url += "&address=" + encodeURIComponent(address) ;
+            url += "&state=" + encodeURIComponent(state) ;
+            url += "&city=" + encodeURIComponent(city);
+
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
